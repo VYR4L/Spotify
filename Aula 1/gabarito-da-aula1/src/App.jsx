@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './components/Header.jsx'
-import Main from './components/Main.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Artists from '../pages/Artists.jsx'
 import Artist from '../pages/Artist.jsx'
