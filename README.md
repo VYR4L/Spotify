@@ -1,1 +1,1 @@
-# Spotify clone from Hashtag treinamentos
+# Spotify clone
