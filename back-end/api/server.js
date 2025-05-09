@@ -8,10 +8,6 @@ const PORT = 3000;
 app.use(cors());
 // app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send('Hello World! Gay');
-});
-
 app.get('/artists', async (req, res) => {
     res.send(await db.collection('artists').find().toArray());
 });
